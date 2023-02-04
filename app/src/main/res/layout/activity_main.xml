@@ -19,7 +19,15 @@
         android:layout_margin="5pt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="Silahkan Login"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_marginLeft="13pt"
+        android:layout_marginBottom="2pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
         android:gravity="center" />
 
     <EditText
@@ -27,13 +35,20 @@
         android:background="@drawable/wildan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:layout_marginRight="30dp"
         android:layout_marginLeft="30dp"
         android:paddingLeft="8dp"
         android:hint="Username"
         android:minHeight="48dp" />
+
+    <TextView
+        android:layout_marginLeft="13pt"
+        android:layout_marginBottom="2pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:gravity="center" />
 
     <EditText
         android:id="@+id/txtPassword"
